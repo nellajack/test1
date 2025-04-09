@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .about {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        .projects .project-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            background-color: #0077cc;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate web developer with expertise in HTML, CSS, JavaScript, and various modern frameworks. I love creating clean, user-friendly websites and applications.</p>
+        <p>When I'm not coding, I enjoy photography, hiking, and learning new technologies.</p>
+        <button>Download Resume</button>
+    </section>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>A responsive website for a local business using HTML, CSS, and JavaScript.</p>
+                <button>View Project</button>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>An e-commerce platform built with React and Node.js.</p>
+                <button>View Project</button>
+            </div>
+            <div class="card">
+                <h3>Project 3</h3>
+                <p>A mobile app developed with React Native for iOS and Android.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: linkedin.com/in/yourname</p>
+        <p>GitHub: github.com/yourusername</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
